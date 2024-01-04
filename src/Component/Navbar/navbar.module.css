@@ -1,0 +1,30 @@
+
+/* navbar style */
+.navbar{
+    margin-top: -16px;
+    width: 98%;
+    height: 60px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgb(45, 207, 94) 0%, rgb(44, 109, 231) 90% );
+    color:rgb(250, 245, 245);
+    padding:10px 1%;
+    position: sticky;
+    display: flex;
+    align-self: center;
+}
+
+/* navbar heading */
+.navbar span{
+    font-size: 1.76rem;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 16px;
+    font-style: italic;
+}
+
+/* navbar cover image */
+.coverImage{
+    height:45px;
+    width: 50px;
+    margin-right: 5px;
+    margin-top: 15px;
+}

@@ -1,0 +1,57 @@
+
+/* main container of page */
+.mainContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainContainer > div{
+    width: 75%;
+    margin-top: 20px;
+}
+
+/* container for all the albums */
+.albumContainer{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:auto;
+}
+
+/* album form container */
+.albumForm{
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+}
+
+
+/* header containing album heading */
+.header span{
+    float:left;
+    font-size: 2.0rem;
+    font-weight:bold;
+    color: #0d0568;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header span:hover{
+    color:#4939ff;
+}
+
+/* for button create album & canncel */
+.btn{
+    margin-top: 10px;
+    float: right;
+    height: 31px;
+    color: rgb(248, 8, 8);
+    width: 200px;
+    background-color: #e7f70f;
+    font-size: large;
+    font-weight: 700;
+   
+}
